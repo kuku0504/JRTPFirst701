@@ -1,7 +1,19 @@
 import java.util.*;
 class Main {
     public static void main(String[] args){
+
+       String s="pratikshya";
+       ArrayList<String> hm=new ArrayList<>();
+       char[] ch=s.toCharArray();
+       for(char c:ch){
+          hm.add(String.valueOf(c));
+       }
+      
+       System.out.println(hm+"");
        
-       System.out.println("hy i am team lead testExample2 file");
+       Collections.sort(hm);
+       System.out.println(hm+"");
+
+     System.out.println("hy the code is updated ");
     }
 }
