@@ -9,8 +9,7 @@ class Main {
        }
       
        System.out.println(hm+"");
-       /*TreeSet<String> ts=new TreeSet<>(hm);
-       System.out.println(ts+"");*/
+       
        Collections.sort(hm);
        System.out.println(hm+"");
     }
